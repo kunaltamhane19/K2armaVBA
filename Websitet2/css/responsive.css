@@ -1,0 +1,19 @@
+/*for small dekstop and below*/
+@media(max-width: 1200px){
+
+}
+
+/*for tablets and below*/
+@media(max-width: 992px){
+	
+}
+
+/*for phones and below*/
+@media(max-width: 768px){
+	header.col{float: none;}
+	.logo{width: 180px}
+	nav{display: none;}
+	nav li, nav a, .nav-toggler{display: block;}
+	nav li+li{margin: 10px 0 0}
+	.caption h2{font-size: 35px}
+}

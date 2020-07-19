@@ -1,0 +1,58 @@
+/*generic css*/
+*{margin: 0; padding: 0; outline: none; border: none; box-sizing: border-box;}
+body{font-family: 'Open Sans', sans-serif; font-size: 17px; color:#444;}
+p{line-height: 21px margin-bottom: 15px;}
+.container{width: 100%; margin: 0 15px;}
+h1{font-size: 30px; font-family: 'Roboto Condensed' }
+h2{font-family: 'Roboto Condensed', sans-serif; font-style: 50px; font-weight: bold; margin-top: 15px; background-color: #fe8501}
+nav a{font-family: 'Roboto Condensed', sans-serif; font-style: 50px; font-weight: bold; margin-top: 15px background-color: #fe8501}
+h3{background-color: #4b4b4b; color: #fe8501}
+h4{font-size: 18px; color: #000}
+h5{font-size: 70px}
+.row{margin: 0 -10px;}
+.col{padding: 0 10px;}
+.button{height: 36px; background: #257dc8; line-height: 36px; padding: 0 10px; border-radius: 5px; text-align: center;}
+.float-left{float: left;}
+.float-right{float: right;}
+.float-center{float: center;}
+.clearfix{clear: both;}
+img{max-width: 100%; height: auto;}
+.img-thumb:{border: 6px solid #000; box-shadow: 0 0 3px #000;}
+/*home css*/
+#home{background-image: url('../images/home.jpg'); height: 700px; position: relative; background-position: center top;}
+.nav-toggler{height: 30px; width: 25px; border: 1px solid #fff; background: none; padding: 7px; display: none;}
+.nav-toggler span{display: block; height: 4px; background: #fff;}
+.na-toggler span+span{margin-top: 25px} 
+header{padding: 0 0; top: 0; left: 0; width: 100%; z-index: 5}
+nav ul{list-style: none}
+nav li, nav a{display: inline-block;}
+nav li+li{margin-left: 65px}
+nav a{text-decoration: none; color:#fff; font-size: 20px; text-transform: uppercase;}
+nav.btn{font-weight: normal; text-transform: none; font-size: 14px;}
+.caption{position: absolute; left: 0; top: 45%; width: 100%; text-align: center;}
+.caption h2{font-size: 72px; opacity: 45%; color: white;}
+.caption button{height: 50px; background: rgba(0,0,0,0.4); color: #fff; line-height: 15px; padding: 0 20px; border: 2px solid #fff; border-radius: 25px; margin-top: 165px}
+
+/*common section css*/
+section{padding: 85px 0 80px}
+.section-header{text-align: center; font-size: 40px; margin-bottom: 90px}
+
+
+/*about.css*/
+
+/*common section css*/
+section{padding: 85px 0 80px}
+.section-header{text-align: center; font-size: 40px; margin-bottom: 90px}
+
+* {box-sizing: border-box;}
+
+.column {float: left; width: 33.33%; padding: 5px;}
+
+/* Clearfix (clear floats) */
+.row::after {content: ""; clear: both; display: table;}
+
+.column2 {float: left; padding: 5px;}
+
+/* Clearfix (clear floats) */
+.row2::after {content: ""; clear: both; display: table;}
+
